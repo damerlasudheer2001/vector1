@@ -1,0 +1,731 @@
+*{
+    margin: 0px;
+}
+body{
+    width: 100%;
+    background-color: beige;
+}
+.navbar{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(3, 83, 83);
+    position: relative;
+}
+.menu1{
+    flex-basis: 15%;
+    font-style: italic;
+    font-weight: 900;
+    position: relative;
+    animation-name: divanm;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.menu1 h1{
+    text-indent: 10px;
+}
+@keyframes divanm{
+    0%{
+        color: crimson;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: deeppink;
+    }
+    100%{
+        color: rgb(30, 56, 5);
+    }
+}
+.x2{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: coral;
+    font-weight: 600;
+}
+.x2:after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    background-color: deeppink;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .x2:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom center;
+  }
+  .menu2{
+    height: 12vh;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(97, 72, 2);
+    text-align: center;
+}
+.menu2:hover{
+    background-color: black;
+}
+.menu2 h2{
+    color: white;
+}
+.menu2 h5{
+    color: white;
+}
+.dotcon{
+    position: absolute;
+    width:80%;
+    bottom: 10vh;
+    left: 10%;
+    justify-content: center;
+    display: flex;
+   }
+.dotcon div{
+padding: 3px;
+}
+.fa-solid{
+color:orangered;
+}
+.fa-regular{
+color:green;
+}
+.fix{
+    position:fixed;
+    top:50vh;
+    border-radius: 50%;
+    z-index:600;
+   }
+.pg2{
+    width: 100%;
+    height: 100vh;
+}
+.pg20{
+    height: 10vh;
+    width: 100%;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.pg21{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.pg21 a{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    position: relative;
+    top: 5vh;
+}
+#pg21-1:hover{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+#pg21-2:hover{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+#pg21-3:hover{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+#pg21-4:hover{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+#pg21-5:hover{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+#pg21-6:hover{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+
+.outside2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.pg22{
+    flex-basis: 40%;
+}
+.pg22 img{
+    width: 90%;
+    height: 50vh;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.pg23{
+    flex-basis: 60%;
+}
+.pg24{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    color :deeppink;
+    text-align: center;
+    position: relative;
+    top: 120px;
+ 
+}
+.pg25{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    color :deeppink;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.pg26{
+    font-size: 17px;
+    font-weight: 500;
+    color: blueviolet;
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+.pg2 button{
+    width: 35%;
+    height: 8vh;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    color :deeppink;
+    border-color: deeppink;
+    position: relative;
+    top: 230px;
+    left: 230px;
+    transition: 0.6s;
+}
+.pg2 button a{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 800;
+    color :deeppink;
+    border-color: deeppink;
+}
+.pg2 button:hover {
+    box-shadow: 10px 10px 10px 10px rgb(76, 136, 7);
+    color:  rgb(76, 136, 7);
+}
+.pg2 button a:hover {
+    color:  rgb(76, 136, 7);
+}
+.outside2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.pg3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.pg31{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+}
+.pg31{
+    flex-basis: 20%;
+    background-color: coral;
+}
+.f{
+    flex-basis: 80%;
+}
+.pg31 img{
+    width: 120px;
+    height: 120px;
+    flex-basis: 20%; 
+}
+.pg311{
+    font-size: 35px;
+    color: green;
+    flex-basis: 60%;
+    text-align: center;
+}
+.pg312 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    flex-basis: 20%;
+}
+.f{
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    position: relative;
+    top: 5vh;
+    float: left;
+}
+.f img{
+    width: 85%;
+    height: 30vh;
+}
+.x  h4{
+    position: relative;
+    top: 10px;
+}
+.x {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+  transition: 1s;
+}
+.x:hover{
+    box-shadow: 5px 5px 5px 5px chocolate;
+}
+.x:hover .x-overlay{
+  opacity: 1;
+}
+.x-image{
+  width: 100%;
+} 
+
+.x-details {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0; 
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease-in-out 0s; 
+} 
+.x:hover .x-details{
+  top: 85%;
+  left: 60%;
+  opacity: 1;
+}
+.x-details h4{
+  color: red;
+  font-weight: 900;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fadeIn-left{
+  left: 20%; 
+}
+.pg4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    top: 15vh;
+}
+.pg40{
+    flex-basis: 30%;
+    position: relative;
+    height: 90vh;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pg43{
+    flex-basis: 70%;
+}
+.pg43 img{
+    width: 90%;
+    height: 90vh;
+    position: relative;
+    left: 5%;
+    top: 5vh;
+}
+.pg41 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgb(17, 0, 255);
+    position: relative;
+    left: 20%;
+}
+.pg41 img:hover{
+    border: 10px solid orangered;
+}
+.pg42{
+    font-style: italic;
+    color: forestgreen;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 10%;
+    top: 2vh;
+}
+.u{
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 5%;
+}
+li{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    color: purple;
+    position: relative;
+    left: 5%;
+}
+.pg5{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.pg51{
+    background-color: rgb(13, 124, 115);
+    width: 85%;
+    height: 65vh;
+    border-radius: 25%;
+    position: relative;
+    left: 10%;
+    top: 25vh;
+    transition: 0.6s;
+}
+.pg51:hover{
+    box-shadow: 5px 5px 5px 5px rgb(129, 9, 15);
+}
+.pg52{
+    background-color: rgb(13, 124, 115);
+    width: 80%;
+    height: 65vh;
+    border-radius: 25%;
+    position: relative;
+    left: 10%;
+    top: 25vh;
+    transition: 0.6s;
+}
+.pg52:hover{
+    box-shadow: 5px 5px 5px 5px rgb(117, 83, 10);
+}
+.pg51 div{
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+.pg52 div{
+    font-size: 20px;
+    position: relative;
+    bottom: -50px;
+    text-align: center;
+}
+.pg51 img{
+    width: 50%;
+    height: 45vh;
+    border-radius: 10%;
+    position: relative;
+    top: 10vh;
+    left: 25%;
+}
+.pg52 img{
+    width: 50%;
+    height: 45vh;
+    border-radius: 10%;
+    position: relative;
+    top: 5vh;
+    left: 25%;
+}
+.combind{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.pg6{
+    height: 80vh;
+    width: 50%;
+    background-image: url("bbg.avif");
+    background-size: cover;
+    position: relative;
+    top: 10vh;
+}
+.pg6 a{
+    font-size: 20px;
+    background-color: chartreuse;
+    border: 10px solid rgb(184, 46, 184);
+    color: white;
+    position: relative;
+    text-decoration: none;
+    top: 50vh;
+    left: 25%;
+    transition: 1s;
+}
+.pg6 a:hover{
+    box-shadow: 5px 5px 5px 5px rgb(109, 8, 70);
+    border: 10px solid rgb(19, 18, 19);
+    font-size: 30px;
+}
+.pg7{
+    height: 80vh;
+    width: 50%;
+    background-image: url("ord.webp");
+    background-size: cover;
+    position: relative;
+    top: 10vh;
+}
+.pg7 a{
+    font-size: 20px;
+    background-color: chartreuse;
+    border: 10px solid rgb(184, 46, 184);
+    color: white;
+    position: relative;
+    text-decoration: none;
+    top: 50vh;
+    left: 35%;
+    transition: 1s;
+}
+.pg7 a:hover{
+    box-shadow: 5px 5px 5px 5px rgb(109, 8, 70);
+    border: 10px solid rgb(19, 18, 19);
+    font-size: 30px;
+}
+.pg8{
+    width: 100%;
+    height: 100vh;
+}
+.pg8 video{
+    width: 100%;
+    height: 100vh;
+}
+.pg11{
+    width: 100%;
+    height: 100vh;
+}
+.pg111{
+    background-image: url("gift.png");
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    top: 10vh;
+}
+.pg111 img{
+    position: relative;
+    top: 70vh;
+    left: 5%;
+}
+.pg111 img:hover{
+    position: relative;
+    width: 18%;
+    height: 6vh;
+    top: 70vh;
+    left: 5%;
+}
+.pg9{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.pg90{
+    background-color: rgb(177, 179, 171);
+    width: 100%;
+    height: 30vh;
+}
+.pg90 h1{
+    text-align: center;
+    color: darkgreen;
+}
+.pg91{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+}
+.pg91 img{
+    width: 15%;
+    height: 15vh;
+}
+.pg92{
+    width: 100%;
+    height: 70vh;
+    background-color:  rgb(177, 179, 171);
+}
+table{
+    width: 90%;
+    height: 70vh;
+    text-align: center;
+    position: relative;
+    left: 5%;
+}
+
+th{
+    font-size: 30px;
+}
+th:hover{
+color: coral;
+}
+td{
+    font-size: 25px;
+}
+td:hover{
+    color: greenyellow;
+}
+.lost{
+    width: 100%;
+    height: 60vh;
+     background-color: rgb(133, 14, 14);
+    position: relative;
+    top: 15vh;
+}
+.pg10{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(133, 14, 14);
+    position: relative;
+    top: 5vh;
+}
+.pg100{
+    width: 100%;
+    height: 7vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+.pg100 h2{
+    color: white;
+}
+.pg100:hover h2{
+    color: crimson;
+}
+.pg101{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+}
+.a{
+    color: deeppink;
+    padding-top: 1.5vh;
+    padding-left: 27%;
+}
+.a:hover{
+    transform: rotate(360deg);
+}
+.a{
+    transition: widtg 1s, height 1s, transform 1s;
+}
+.b{
+    padding-top: 1.5vh;
+    padding-left: 24%;
+    color: red;
+}
+.b:hover{
+    transform: rotate(360deg);
+}
+.b{
+    transition: widtg 1s, height 1s, transform 1s;
+}
+.c{
+    padding-top: 1.3vh;
+    padding-left: 25%;
+    color: rgb(0, 140, 255);
+    
+}
+.c:hover{
+    transform: rotate(360deg);
+}
+.c{
+    transition: widtg 1s, height 1s, transform 1s;
+}
+.d{
+    padding-top: 1.3vh;
+    padding-left: 28%;
+    color: blue;
+}
+.d:hover{
+    transform: rotate(360deg);
+}
+.d{
+    transition: widtg 1s, height 1s, transform 1s;
+}
+.e{
+    padding-top: 1.3vh;
+    padding-left: 25%;
+    color: rgb(0, 102, 255);
+}
+.e:hover{
+    transform: rotate(360deg);
+}
+.e{
+    transition: width 1s, height 1s, transform 1s;
+}
+.pg102{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 30px;
+    color: white;
+}
+.pg102:hover h2{
+    color: crimson;
+}
+.pg102:hover div{
+    color: green;
+}
+.pg103{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 2vh;
+    color: white;
+}
+.pg103:hover div{
+    color: green;
+}
+.pg103  img{
+    width: 250px;
+    height: 25px;
+}

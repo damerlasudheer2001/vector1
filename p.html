@@ -1,0 +1,305 @@
+<html>
+    <head>
+        <head>
+            <link rel="stylesheet" href="index.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        </head>
+    </head>
+    <body>
+        <div class="pg1">
+            <div class="navbar">
+                <div class="menu1"><h1>veggiegrills.</h1></div>
+                <div></div>
+                <a href="menu.html"  class="x2">MENUS</a>
+                <a href="location.html" class="x2">LOCATIONS</a>
+                <a href="catering.html" class="x2">CATERING</a>
+                <a href="reward.html"  class="x2">REWARDS</a>
+                <a href="dailydeal.html"  class="x2">DAILY DEALS</a>
+                <div></div>
+                <div class="menu2"><h2>ORDER NOW</h2><h5>Pick-up or Delivery</h5></div>
+            </div>
+            <div class="front">
+                <div>
+                    <img id="i1" src="1.jpg" width="100%" height="580px"/>
+                    <div class="dotcon">
+                        <div onclick="fun2(0,this)"><i class="fa-solid fa-circle"></i></div>
+                        <div onclick="fun2(1,this)"><i class="fa-regular fa-circle"></i></div>
+                        <div onclick="fun2(2,this)"><i class="fa-regular fa-circle"></i></div>
+                        <div onclick="fun2(3,this)"><i class="fa-regular fa-circle"></i></div>
+                        <div onclick="fun2(4,this)"><i class="fa-regular fa-circle"></i></div>
+                        <div onclick="fun2(5,this)"><i class="fa-regular fa-circle"></i></div>
+                        <script>
+                         var arr=["1.jpg","2.webp","3.jpg","4.jpg","5.webp","6.jpg"]
+                     var i=0
+                function fun2(ind,e){
+                    let re=document.getElementsByClassName("fa-circle")
+                    re[i].className="fa-regular fa-circle"
+                    i=ind
+                    re[i].className="fa-solid fa-circle"
+                    document.getElementById("i1").src=arr[i]
+                }
+               var j=0
+                function right(){
+                    j=j+1
+                    if(j>=arr.length){j=0}
+                    fun2(j)
+                }
+                setInterval(right,1000)
+                           </script>
+                      </div>  
+                </div>
+            </div>
+            <img class="fix" src="fixed3.png">
+            <div class="pg2">
+                <div class="outside">
+                    <div onloade="fun5()" class="pg20">RESTAURANT MENU</div>
+                    <script>
+                        var rf=document.getElementsByClassName("pg20")
+                    </script>
+                </div>
+                    <div class="pg21">
+                        <a id ="pg21-1" href="ayourorderfood.html">Featured</a>
+                        <a  id ="pg21-2" href="byourorderfood.html">Salads</a>
+                        <a  id ="pg21-3" href="cyourorderfood.html">Bowls</a>
+                        <a  id ="pg21-4" href="dyourorderfood.html">Burgurs+sandwiches</a>
+                        <a  id ="pg21-5" href="eyourorderfood.html">Family Meal</a>
+                        <a  id ="pg21-6" href="fyourorderfood.html">Kids</a>
+                    </div>
+                    <div class="outside2">
+                        <div class="pg22"><img src="https://i0.wp.com/veggiegrill.com/wp-content/uploads/2022/10/promo-banner-image_catering.jpg"></div>
+                        <div class="pg23">
+                         <div class="pg24">PLEASE EVERYBODY AT YOUR NEXT</div><br/><div class="pg25">GATHERING!</div>
+                         <div class="pg26">Our delicious 100% plant-based catering menu has everybody covered</div>
+                         <button><a href="menu.html">ORDER CATERING</a></button>
+                        </div>
+                    </div>
+            </div>
+            <div class="pg3">
+                <div class="pg31">
+                    <div><img src="https://veggiegrill.com/wp-content/uploads/2022/11/HomepageStamp.png"></div>
+                    <div class="pg311"> SOME TASTY&DELICIOUS FOODS</div>
+                    <div class="pg312"><img src="1000.png"></div>
+                </div>
+                <div class="f">
+                    <div class="x">
+                       <img src="https://veggiegrill.com/wp-content/uploads/2022/04/Kids-Quesadilla-1536x1229.jpg">
+                       <div class="x-details fadeIn-left">
+                       <h4>Kid's Quesadilla</h4>
+                       </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://veggiegrill.com/wp-content/uploads/2022/04/Handcrafted-Beverages-1536x1229.jpg">
+                        <div class="x-details fadeIn-left">
+                            <h4>Handcrafted Beverage</h4>
+                        </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://veggiegrill.com/wp-content/uploads/2022/04/Kids-Crispy-Fish-1536x1229.jpg">
+                        <div class="x-details fadeIn-left">
+                            <h4> Crispy Fish Fry</h4>
+                        </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5ea7878e950742595695386b/257c0459-b66b-4795-a8c2-795c4d03a4e1/CHIPOTLE+CRUNCH+TACO+SALAD.png?format=500w">
+                        <div class="x-details  fadeIn-left">
+                            <h4>Chipotle Salad</h4>
+                        </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5ea7878e950742595695386b/8b0162db-ba93-42a0-a9b8-4b0789351e92/Smokey+Mushroom+.jpg?format=300w">
+                        <div class="x-details  fadeIn-left">
+                            <h4>Chipotle Beverage</h4>
+                        </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5ea7878e950742595695386b/5fe881f2-f870-490e-85a6-25ed6d3063e7/Brown+Rice+and+Beans.png?format=300w">
+                        <div class="x-details fadeIn-top fadeIn-left">
+                            <h4>Family Meal Deal</h4>
+                        </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://veggiegrill.com/wp-content/uploads/2022/07/vgweb070722_olobundles-bundle2-1536x1229.jpg">
+                        <div class="x-details fadeIn-top fadeIn-left">
+                            <div class="b-details fadeIn-top fadeIn-left">
+                                <h4> Mushroom Asada</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://veggiegrill.com/wp-content/uploads/2022/04/Chocolate-Parfait-1536x1229.jpg">
+                        <div class="x-details fadeIn-top fadeIn-left">
+                            <h4>Chocolate Parfait</h4>
+                        </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://veggiegrill.com/wp-content/uploads/2022/04/Classic-Romaine-Caesar-1536x1229.jpg">
+                        <div class="x-details fadeIn-top fadeIn-left">
+                            <h4>Classic Romaine Caesar</h4>
+                        </div>
+                    </div>
+                    <div class="x">
+                        <img src="https://veggiegrill.com/wp-content/uploads/2022/04/Kids-Veggie-Burger-1536x1229.jpg">
+                        <div class="x-details fadeIn-top fadeIn-left">
+                            <h4>Kids' Veggie Burger</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pg4">
+                <div class="pg40">
+                    <div class="pg41"><img src="chef1.webp"></div>
+                    <div class="pg42">Our Restuarent Greateness are:</div>
+                    <ul class="u">
+                        <li>Fast servising</li>
+                        <li>Safety Food</li>
+                        <li>High Quality</li>
+                        <li>All country foods are availabe</li>
+                        <li>Respecting Our Customers</li>
+                        <li>Peacefull Nature</li>
+                        <li>Door delivery is also availabe</li>
+                    </ul>
+                </div>
+                <div class="pg43"><img src="restaurent.jpg"></div>
+            </div>
+            <div class="pg5">             <div class="pg51">
+                    <div>ORDERD AND DELIVERY IS AVAILABLE</div>
+                    <img src="deliver.jpg">
+                </div>
+                <div class="pg52">
+                    <img src="servise.webp">
+                    <div>HOTEL SERVISING IS AVAILABLE</div>
+                </div>
+            </div>
+            <div class="combind">
+                <div class="pg6">
+                    <div><a href="  ta.html">BOOK YOUR TABLE NOW</a></div>
+                </div>
+                <div class="pg7">
+                    <div><a href="yourorderfood.html">ORDER YOUR FOOD</a></div>
+                </div>
+            </div>
+            <div class="pg8">
+                <video autoplay loop muted plays-inline>
+                    <source src="restaurent.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="pg11">
+                <div class="pg111">
+                    <img src="load.PNG"/>
+                </div>
+            </div>
+            <div class="pg9">
+                <div class="pg90">
+                    <h1>OUR STRENGTHS</h1></br>
+                <div class="pg91">
+                    <img src="tall.webp">
+                    <img src="hand.webp">
+                    <img src="Empower_160x160@2x.webp">
+                    <img src="300_Prods_160x160@2x.webp">
+                </div>
+                </div>
+            
+                <div class="pg92">
+                    <table border="1">
+                    <tr class="pg921">
+                        <th>HEALTH&NUTRITION</th>
+                        <td>Good Nutrition Food</td>
+                        <td>Vitamins</td>
+                        <td>Fitness</td>
+                        <td>Organic Foods</td>
+                        <td>b-12</td>
+                    </tr>
+                    <tr  class="pg921">
+                        <th>WORKERS</th>
+                        <td>Properdress</td>
+                        <td>Shoes</td>
+                        <td>glowses</td>
+                        <td>mask</td>
+                        <td>polite</td>
+                    </tr>
+                    <tr class="pg921">
+                        <th>SHOPPING</th>
+                        <td>Cookbooks</td>
+                        <td>Reference</td>
+                        <td>Groceries</td>
+                        <td>Vitamns</td>
+                        <td>Cookware</td>
+                    </tr>
+                    <div  class="pg921">
+                        <th>PERSONAL CARE</th>
+                        <td>Shampoos</td>
+                        <td>Shaving</td>
+                        <td>Soap</td>
+                        <td>cleaning</td>
+                        <td>customers caring</td>
+                    </tr>
+                    <tr  class="pg921">
+                        <th>VEGAN ALTERNATIVES</th>
+                        <td>Meat</td>
+                        <td>Milk</td>
+                        <td>Cheese</td>
+                        <td>Yogurt</td>
+                        <td>Eggs</td>
+                    </tr>
+                </table>
+            </div> 
+            </div>
+            <div class="lost">
+                <div class="pg10">
+                    <div class="pg100">
+                        <h2>FOLLOW US</h2>
+                        <div class="pg101"><div><i class="a fa-brands fa-instagram"></i></div></div>
+                        <div class="pg101"><i class="b fa-brands fa-youtube"></i><div></div></div>
+                        <div class="pg101"><i class="c fa-brands fa-twitter"></i><div></div></div>
+                        <div class="pg101"><i class="d fa-brands fa-facebook-f"></i><div></div></div>
+                        <div class="pg101"><i class="e fa-brands fa-telegram"></i><div></div></div>
+                    </div>
+                    <div class="pg102">
+                        <div>
+                            <h2>About</h2>
+                                <div>Careers</div>
+                                <div>Blogs</div>
+                                <div>About cision</div>
+                                <div>Careers</div>
+                                <div>Accesibility Statement</div>
+                                <div>COVID-19 RESOURCES</div>
+                        </div>
+                        <div>
+                            <h2>Contact Us</h2>
+                                <div>location of our Restaurent</br>
+                                    is: Near Hindhu bangla,</br>
+                                    Cross Road,Repalle
+                                </div>
+                                <div>9704632376</div>
+                                <div>9603393060</div>
+                                <div>BHANUPRADDEP10@GAMIL.COM</div>
+                        </div>
+                        <div>
+                            <h2>My Services</h2>
+                        
+                                <div>Group Order</div>
+                                <div>GOOD quality Food</div>
+                                <div>Fast Delivery</div>
+                                <div>Free Delivery</div>
+                        </div>
+                        <div>
+                            <h2>Top Cuisines</h2>
+                                <div>Chinese</div>
+                                <div>Italian</div>
+                                <div>South Indian</div>
+                                <div>Bengali</div>
+                                <div>Mexican</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="pg103">
+                        <div><img src="pay.png"></div>
+                        <div>Terms and conditions</div>
+                        <div>Privacy policy</div>
+                        <div>Cookie policy</div>
+                        <div>Copyright @ veggiegrill. All Rights Reserved.</div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

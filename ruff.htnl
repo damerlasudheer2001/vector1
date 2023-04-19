@@ -1,0 +1,28 @@
+<div class="front">
+                <div>
+                    <img id="i1" src="img2.webp" width="100%" height="580px"/>
+                    <div class="dotcon">
+                        <div onclick="fun(0,this)"><i class="fa-solid fa-circle"></i></div>
+                        <div onclick="fun(1,this)"><i class="fa-regular fa-circle"></i></div>
+                        <div onclick="fun(2,this)"><i class="fa-regular fa-circle"></i></div>
+                        <div onclick="fun(3,this)"><i class="fa-regular fa-circle"></i></div>
+                    <script>
+                        var arr=["img2.webp","img3.webp","img4.webp","img5.jpg",]
+                        var i=0
+                        function fun2(ind,e)
+                        {
+                            let re=document.getElementsByClassName("fa-circle")
+                            re[i].className="fa-regular fa-circle"
+                            i=ind
+                            re[i].className="fa-solid fa-circle"
+                            document.getElementById("i1").src=arr[i]
+                            }
+                            var j=0
+                            function right(){
+                                j=j+1
+                                if(j>=arr.length){j=0}
+                                fun2(j)
+                                }
+                                setInterval(right,1000)
+                    </script>
+                </div> 
